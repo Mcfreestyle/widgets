@@ -36,7 +36,7 @@ class ScreenTemplate extends StatelessWidget {
                   children: [
                     Text(
                       '$title',
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      style: const TextStyle(fontWeight: FontWeight.bold),
                     ),
                     Text('$subtitle'),
                   ],
@@ -101,7 +101,7 @@ class ScreenTemplate extends StatelessWidget {
           ],
         ),
         Padding(
-          padding: EdgeInsets.all(20.0),
+          padding: const EdgeInsets.all(20.0),
           child: SizedBox(
             child: Text('$description'),
           ),
