@@ -12,10 +12,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Sesiones',
-      theme: ThemeData(
-        useMaterial3: true,
-        primarySwatch: Colors.blue,
+      theme: ThemeData.dark(useMaterial3: true).copyWith(
+        splashColor: Colors.transparent,
+        hoverColor: Colors.transparent,
+        highlightColor: Colors.transparent,
+        primaryColor: Colors.black,
+        scaffoldBackgroundColor: Colors.black,
       ),
+      // theme: ThemeData(
+      //   useMaterial3: true,
+      //   primarySwatch: Colors.blue,
+      // ),
       home: const Menu(),
     );
   }
