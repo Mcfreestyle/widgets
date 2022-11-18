@@ -35,7 +35,7 @@ class _Home6State extends State<Home6> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 224, 255, 156),
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 26, 209, 87),
+        backgroundColor: const Color.fromARGB(255, 26, 209, 87),
         title: Text(
           'Sesion 6',
           style: GoogleFonts.rubikBubbles(fontSize: 32.0),
